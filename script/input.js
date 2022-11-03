@@ -1,0 +1,10 @@
+const part = ["他","名","動","形","副","前","接","代","助"];
+//const _n = ["英単語","日本語",品詞番号,テスト範囲である0or1,"下のやつ","英語"]
+const _0 = ["英語","日本語"]
+const _1 = ["spaghetti","スパゲッティ",1,0];
+const _2 = ["go swimming","泳ぎに行く",0,0];
+const _3 = ["movie","映画",1,0];
+const _4 = ["allergy","アレルギー",1,0];
+const _5 = ["San Francisco","サンフランシスコ",1,1];
+const _6 = ["hurry","急ぐ",2,0,"hurry up","急ぐ"];
+const _7 = ["Spain","スペイン",1,1];

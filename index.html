@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" contact="説明文">
+        <title>単語学習サイト</title>
+        <link rel="stylesheet" href="css/sanitize.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="icon" href="favicon.ico">
+        <script src="script/input.js"></script>
+        <script src="script/index.js"></script>
+    </head>
+    <body>
+        <h1>Wordiligence</h1>
+        <!--入力欄ここから-->
+        <input type="number" value="0" id="number1">~<input type="number" value="0" id="number2">
+        <label><input type="checkbox" checked id="checkbox">テスト範囲外を除く</label>
+        <label><input type="radio" name="radio" checked id="radio">英語を隠す</label>
+        <label><input type="radio" name="radio">日本語を隠す</label>
+        <input type="button" value="生成" onclick="OnButtonClick()">
+
+        
+        <table border="1" id="input">
+        </table>
+    </body>
+</html>

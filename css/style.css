@@ -1,0 +1,11 @@
+@charset "UTF-8";
+
+body {
+    
+}
+input[type="checkbox"]:checked + label {
+    background: #000000;
+}
+.back{
+    display: none;
+}
